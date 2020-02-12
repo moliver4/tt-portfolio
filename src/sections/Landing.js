@@ -97,13 +97,16 @@ const LandingPage = () => (
                   ))}
               </TextLoop>
             </Heading>
-
+                
             <Flex alignItems="center" justifyContent="center" flexWrap="wrap">
               {socialLinks.map(({ id, ...rest }) => (
                 <Box mx={3} fontSize={[5, 6, 6]} key={id}>
                   <SocialLink {...rest} />
                 </Box>
               ))}
+              <Box mx={3} fontSize={[5, 6, 6]} key='envelope'>
+                  <SocialLink fontAwesomeIcon='envelope' name='contact me' url='url' color='black'/>
+                </Box>
             </Flex>
             <SectionLink section="about">
               {({ onClick }) => <MouseIcon onClick={onClick} />}
