@@ -105,7 +105,7 @@ const LandingPage = () => (
                 </Box>
               ))}
               <Box mx={3} fontSize={[5, 6, 6]} key='envelope'>
-                  <SocialLink fontAwesomeIcon='envelope' name='contact me' url='url' color='black'/>
+                  <SocialLink fontAwesomeIcon='envelope' name='Contact me' url='mailto:tifftang22@gmail.com' color='black'/>
                 </Box>
             </Flex>
             <SectionLink section="about">
