@@ -141,7 +141,7 @@ const Writing = () => (
             isMediumUserDefined
           }
         }
-        allMediumPost(limit: 7, sort: { fields: createdAt, order: DESC }) {
+        allMediumPost(limit: 6, sort: { fields: createdAt, order: ASC }) {
           totalCount
           edges {
             node {
